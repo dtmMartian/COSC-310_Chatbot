@@ -1,0 +1,65 @@
+package trial;
+import trial.Main;
+import java.util.Scanner
+
+public class iphone {
+
+    public static String Concern;
+    public static String response;
+
+
+
+    public String iphone(String placeholder) {
+
+        //   Scanner scanner = new Scanner(System.in); {MIGHT NEED THIS IDK DEPENDING ON FUNCTIONALITY}
+        //   System.out.println("What is your concern?: ");
+        Concern.equals(placeholder);
+
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+        if (Concern.equals("my phone is dead")) {
+            System.out.println("plug it in");
+            response.equals("plug it in");
+        }
+            return response;
+    }
+    }
+
