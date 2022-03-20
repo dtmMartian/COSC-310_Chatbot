@@ -13,7 +13,7 @@ public class tokenisation {
     StanfordCoreNLP stanfordCoreNLP= pipeline.getPipeline();
     Stemmer spellCheck = new Stemmer ();
 
-    String text = "Hi, ths is Logan Gilroy";
+    String text = "hi, ths is logan gilroy";
 
 
         CoreDocument coreDocument = new CoreDocument(text);
@@ -24,10 +24,8 @@ public class tokenisation {
         for(CoreLabel coreLabel:coreLabelList){
 
             word = coreLabel.originalText();
-            spellCheck.add(word.toCharArray(), word.length());
+            spellCheck.add(word.toCharArray(), word.toCharArray().length());
             System.out.printf(spellCheck.toString());
-
-
 
         }
 
